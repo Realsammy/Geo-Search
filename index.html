@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geo Search api</title>
+    <link rel="stylesheet" href="style/geo3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <style>
+        .geo-allerta {
+            font-family: "Allerta Stencil", Sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="s-container">
+        <h1 class="geo-center">Wecome to your weather <applet></applet></h1>
+        <p class="geo2-center"> You can search for your favorite location here  <a class="geo-btn geo-green" href="https://dev.to/dev_amaz/using-fetch-api-to-get-and-post--1g7d">LINK</a></p>
+        <p>
+            <p>
+                
+            </p>
+            <input type="submit" value="GET DATA FROM LOCAL" id="getJSON" class="geo3-btn geo-white geo3-border geo3-border-blue geo3-margin">
+            <input type="submit" value="GET DATA FROM API" id="getAPI" class="geo-btn geo3-blue geo3-margin">
+        </p>
+        <hr>
+
+        <div id="result" class="w3-container"></div>
+
+        <hr>
+
+        <div class="geo-container geo-blue">
+            <h2>Input Location</h2>
+        </div>
+        <form id="postData" class="geo3-container geo3-margin">
+            <p>
+                <input type="text" name="" placeholder="country ..." class="geo3-input" id="title">
+            </p>
+            <p>
+                <textarea name="" placeholder="city..." id="body" cols="20" rows="5" class="geo3-input"></textarea>
+            </p>
+            <input type="submit" value="SEND POST" class="geo3-btn geo3-blue">
+        </form>
+
+    </div>
